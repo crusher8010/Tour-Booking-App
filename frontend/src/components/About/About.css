@@ -1,0 +1,20 @@
+.aboutContainer {
+    text-align: center;
+    border: 1px solid #333;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: blanchedalmond;
+}
+
+.aboutContainer h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: orange;
+}
+
+.aboutContainer p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}

@@ -6,6 +6,7 @@ import Login from "../Pages/Login";
 import Registration from "../Pages/Registration";
 import SearchResultList from "../Pages/SearchResultList";
 import ThankYou from "../Pages/ThankYou";
+import About from "../components/About/About";
 
 function Router() {
     return (
@@ -18,6 +19,7 @@ function Router() {
             <Route path="/register" element={<Registration />}></Route>
             <Route path="/tours/search" element={<SearchResultList />}></Route>
             <Route path="/thank-you" element={<ThankYou />}></Route>
+            <Route path="/about" element={<About />}></Route>
         </Routes>
     )
 }
