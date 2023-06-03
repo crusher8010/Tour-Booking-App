@@ -1,1 +1,0 @@
-export const BASE_URL = 'https://tour-booking-data.onrender.com';
